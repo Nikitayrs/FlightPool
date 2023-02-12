@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+<!-- Header start -->
+<header class="header">
+    <div class="container">
+        <div class="wrapper">
+            <div class="test-0-logo">
+                <a class="test-0-logo__link" href="#">
+                    <img class="test-0-logo__pic" src="assets/images/logo-header.png" alt="">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link test-0-nav-1" href="#">Главная</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search__wrapper">
+            <form action="">
+                <input class="search-input test-0-fd" placeholder="ОТКУДА" type="text" name="city-start" required>
+                <input class="search-input test-0-fa" placeholder="КУДА" type="text" name="city-end" required>
+                <input class="search-input test-0-fdt" placeholder="ТУДА" type="date" name="date-start" required>
+                <input class="search-input test-0-fat" placeholder="ОБРАТНО" type="date" name="date-end" required>
+                <input class="search-input test-0-fnp" placeholder="КОЛИЧЕСТВО ПАССАЖИРОВ" type="select" name="passenger-count" required>
+                <input class="btn test-0-fbs" type="submit" name="btn-search" value="Найти">
+            </form>
+        </div>
+    </div>
+</header>
+<!-- Header end -->
+<div class="search-result">
+    <div class="container">
+        <h1 class="search-result__title">Найденные рейсы:</h1>
+        <div class="flight">
+            <div class="column-1">
+                <div class="row-there">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+                <div class="row-back">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="row-main row-there">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+                <div class="row-main row-back">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight">
+            <div class="column-1">
+                <div class="row-there">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+                <div class="row-back">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="row-main row-there">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+                <div class="row-main row-back">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight">
+            <div class="column-1">
+                <div class="row-there">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+                <div class="row-back">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="row-main row-there">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+                <div class="row-main row-back">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight">
+            <div class="column-1">
+                <div class="row-there">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+                <div class="row-back">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="row-main row-there">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+                <div class="row-main row-back">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight">
+            <div class="column-1">
+                <div class="row-there">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+                <div class="row-back">
+                    <button class="flight__price">Купить за 4000 р</button>
+                    <div class="flight__number">Номер рейса: 3</div>
+                    <p>Воздушное судно: </p>
+                    <div class="flight__aircraft">Boing 747</div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="row-main row-there">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+                <div class="row-main row-back">
+                    <div class="row">
+                        <div class="time-start">7:00</div>
+                        <div class="time">В пути 6ч 0м</div>
+                        <div class="time-end">13:00</div>
+                    </div>
+                    <div class="line">
+                        <div class="test-4-fh">50%</div>
+                    </div>
+                    <div class="row">
+                        <div class="date">02.20.21</div>
+                        <div class="date">02.20.21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

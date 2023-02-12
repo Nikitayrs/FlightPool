@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 100%;
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+ul, li{
+    list-style: none;
+}
+/* Header start */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.test-0-logo__pic{
+    max-width: 250px;
+    padding: 15px;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-link{
+    padding-left: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+    opacity: .75;
+}
+/* Header end */
+
+/* Info start */
+/* min-height: 100vh;
+  background: url(../img/intro-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 263px;
+  padding-bottom: 223px; */
+.info{
+    min-height: 100vh;
+    background: url("../assets/images/aircrafts/96-963589_airbus-a320-wallpaper-airbus-a320-wallpaper-hd.jpg");
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.info-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 24px;
+}
+.info-block{
+    padding: 0 5px;
+}
+.info__input{
+    width: 200px;
+    border-radius: 4px;
+    padding: 15px;
+}
+.infographic{
+    height: 280px;
+    width: 400px;
+    margin: 30px auto 0;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+}
+.infographic__wrap{
+    height: 100%;
+    position: relative;
+}
+.infographic__str{
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.str_1{
+    padding-top: 20px;
+    height: 20%;
+}
+.str_2{
+    height: 65%;   
+}
+.str_3{
+    height: 15%;
+}
+.infoLine{
+    background: #b22222;
+    width: 30%;
+    transition: all 1s ease;
+}
+.btn{
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+.info-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.info-l{
+    position: relative;
+}
+.text-error{
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+}
+.infographic__people{
+    height: 0%;
+}
+.infographic__rand{
+    height: 0%;
+}
+/* Info end */
+
+
+/* Company start */
+.company{
+    margin-bottom: 120px;
+}
+.company__wrap{
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+.company__title{
+    width: 100%;
+    padding: 80px 50px 50px 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 35px;
+    line-height: 42px;
+    transform: translateY(-100%);
+    background-color: #fff;
+}
+.company__info{
+    padding: 0 50px 62px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.company__info p{
+    margin-bottom: 10px;
+}
+/* Company end */
+
+/* Search start */
+.search-input{
+    padding: 15px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+.test-0-fd{
+    border-radius: 4px 0 0 4px;
+}
+.test-0-fa{
+
+}
+.test-0-fdt{
+
+}
+.test-0-fat{
+
+}
+.test-0-fnp{
+    border-radius: 0 4px 4px 0;
+}
+.test-0-fbs{
+    padding: 10px 15px;
+}
+/* Search end */
+
+/* closed-stocks start */
+.closed-stocks{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.closed-stocks__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 700px;
+    background: url("../assets/images/im-196106.jpeg") center / cover no-repeat;
+    
+}
+.closed-stocks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* closed-stocks end */
+
+/* footer start */
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #5f80ae;
+}
+.test-0-phone{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+/* footer end */
